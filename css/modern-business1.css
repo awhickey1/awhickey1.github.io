@@ -12,14 +12,21 @@ body {
     background-color: #fafafa;
 }
 
+/* Icon colors */
+.fa-linkedin, .fa-linkedin-square {
+    color: #fafafa
+}
+.fa-quora, .fa-quora-square {
+    color: #fafafa
+}
 
 /*Navbar-default css customization */
 
 /* ALTERNATIVE NAVBAR */
 
 .navbar-default {
-  background-color: #8C1515;
-  border-color: #8C1515;
+  background-color: #316bce;
+  border-color: #316bce;
   -webkit-box-shadow: 0 8px 6px -6px #000;
     -moz-box-shadow: 0 8px 6px -6px #000;
     box-shadow: 0 8px 6px -6px #000;
@@ -36,7 +43,7 @@ body {
 }
 
 .navbar-default .navbar-brand:hover {
-  color: #8C1515;
+  color: #316bce;
   background-color: #ffffff;
 }
 
@@ -45,7 +52,7 @@ body {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #8C1515;
+  color: #316bce;
   background-color: #ffffff;
   font-size: 18;
   font-weight: bold;
@@ -56,14 +63,14 @@ body {
   clear: both;
   font-weight: normal;
   line-height: 1.42857143;
-  color: #8C1515;
+  color: #316bce;
   white-space: nowrap;
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   color: #ffffff;
   text-decoration: none;
-  background-color: #8C1515;
+  background-color: #316bce;
 }
 .navbar-default .navbar-toggle {
   border-color: #fff;
@@ -347,7 +354,7 @@ header .intro-text .intro-heading {
     left: 0;
     right: 0;
     width: 100%;
-    background-color:#8C1515;
+    background-color:#316bce;
 
 }
 
@@ -783,17 +790,17 @@ hr.style14 {
 }
 .btn-primary {
   color: #fff;
-  background-color: #8C1515;
-  border-color: #4a0b0b;
+  background-color: #316bce;
+  border-color: #03296b;
 }
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color: #8C1515;
-  border-color: #4a0b0b;
+  background-color: #316bce;
+  border-color: #03296b;
 }
 .btn-primary:hover {
-  color: #8C1515;
+  color: #316bce;
   background-color: #fff;
-  border-color: #8C1515;
+  border-color: #316bce;
 }
