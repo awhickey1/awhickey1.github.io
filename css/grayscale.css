@@ -167,17 +167,27 @@
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  padding-top: 5rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.6)), to(#fff));
+  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.6) 50%, #fff 100%);
 }
 
 .about-section p {
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
+}
+
+.info-section {
+  padding-top: 5rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.6)), to(#fff));
+  background: linear-gradient(to bottom, #fff 0%, rgba(22, 22, 22, 0.6) 50%, #161616 100%);
+}
+
+.info-section p {
+  margin-bottom: 10rem;
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 
 .projects-section .featured-text {
@@ -201,6 +211,37 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
+    border-color: #316bce;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+
+.other-section {
+  padding: 3rem 0;
+}
+
+.other-section .featured-text {
+  padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .other-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #316bce;
+  }
+}
+
+.other-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .other-section .project-text {
+    padding: 5rem;
+  }
+  .other-section .project-text hr {
     border-color: #316bce;
     border-width: .25rem;
     width: 30%;
