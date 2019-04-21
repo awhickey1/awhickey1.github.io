@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #316bce;
+  border: 1px solid #316bce;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -54,10 +54,10 @@
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color:  rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: #316bce; /*  rgba(255, 255, 255, 0.75); */
   }
   #mainNav .nav-link:active {
     color: white;
@@ -74,15 +74,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #316bce;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #316bce;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #316bce;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #316bce;
   }
 }
 
@@ -150,20 +150,20 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #316bce;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #316bce;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #316bce;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #316bce !important;
 }
 
 .about-section {
@@ -187,7 +187,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #316bce;
   }
 }
 
@@ -201,7 +201,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #316bce;
     border-width: .25rem;
     width: 30%;
   }
@@ -235,7 +235,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #316bce;
 }
 
 .contact-section .card h4 {
@@ -246,7 +246,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #316bce;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -259,10 +259,10 @@
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: #316bce; /* rgba(255, 255, 255, 0.1); */
   border-radius: 100%;
   line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  color: #fff; /* rgba(255, 255, 255, 0.3); */
 }
 
 .contact-section .social a:hover {
@@ -279,12 +279,16 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #316bce;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #03296b;
+}
+
+.bg-darkgrey {
+  background-color: #808080 !important;
 }
 
 .bg-black {
@@ -292,11 +296,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #316bce !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #316bce !important;
 }
 
 footer {
