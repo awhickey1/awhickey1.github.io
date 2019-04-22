@@ -168,8 +168,8 @@
 
 .about-section {
   padding-top: 5rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.6)), to(#fff));
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.6) 50%, #fff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.6)), to(#F8F9FA));
+  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.6) 50%, #F8F9FA 100%);
 }
 
 .about-section p {
@@ -178,8 +178,8 @@
 
 .info-section {
   padding-top: 5rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.6)), to(#fff));
-  background: linear-gradient(to bottom, #fff 0%, rgba(22, 22, 22, 0.6) 50%, #161616 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.6)), to(#F8F9FA));
+  background: linear-gradient(to bottom, #F8F9FA 0%, rgba(22, 22, 22, 0.6) 50%, #161616 100%);
 }
 
 .info-section p {
