@@ -9,7 +9,7 @@
 html,
 body {
     height: 100%;
-    background-color: #fafafa;
+    background-color: #f8f9fa;
 }
 
 /* Icon colors */
@@ -690,13 +690,13 @@ header.carousel .fill {
             				width: 100%;
             			}
 
-            		.image.main {
+            		.image.def {
             			display: block;
             			margin: 0 0 3em 0;
             			width: 100%;
             		}
 
-            			.image.main img {
+            			.image.def img {
             				width: 100%;
             			}
 
@@ -731,7 +731,7 @@ hr.style14 {
   background-image: -o-linear-gradient(left, #f0f0f0, #000, #f0f0f0);
 }
 
-/* Main quote */
+/* def quote */
 .heading1 {
     margin-top: 50px;
     margin-bottom: 50px;

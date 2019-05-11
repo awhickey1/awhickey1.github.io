@@ -63,26 +63,28 @@
     color: white;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #316bce;
+    box-shadow: 0 8px 6px -6px #000;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #161616;
+    color: #fff;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #161616;
+    color: #fff;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #316bce;
+    color: #316bce; /*  rgba(255, 255, 255, 0.75); */
+    background-color: #fff;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #316bce;
+    color: #fff
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #316bce;
+    color: #fff;
     outline: none;
-    border-bottom: 0.25rem solid #316bce;
+    border-bottom: 0.25rem solid #fff;
   }
 }
 
